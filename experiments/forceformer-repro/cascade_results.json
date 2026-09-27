@@ -1,0 +1,51 @@
+[
+  {
+    "defer_frac": 0.0,
+    "n_deferred": 0,
+    "overall_acc": 0.6150000095367432,
+    "eff_throughput": 1343.8974687600128,
+    "adj_acc": 826.4969561038129
+  },
+  {
+    "defer_frac": 0.1,
+    "n_deferred": 20,
+    "overall_acc": 0.6050000190734863,
+    "eff_throughput": 1035.058195125736,
+    "adj_acc": 626.2102277932386
+  },
+  {
+    "defer_frac": 0.2,
+    "n_deferred": 40,
+    "overall_acc": 0.6000000238418579,
+    "eff_throughput": 841.6416557870249,
+    "adj_acc": 504.9850135385157
+  },
+  {
+    "defer_frac": 0.3,
+    "n_deferred": 60,
+    "overall_acc": 0.6000000238418579,
+    "eff_throughput": 709.1298410474275,
+    "adj_acc": 425.4779215354294
+  },
+  {
+    "defer_frac": 0.5,
+    "n_deferred": 100,
+    "overall_acc": 0.625,
+    "eff_throughput": 539.307793904073,
+    "adj_acc": 337.06737119004566
+  },
+  {
+    "defer_frac": 0.7,
+    "n_deferred": 140,
+    "overall_acc": 0.6499999761581421,
+    "eff_throughput": 435.1082867050208,
+    "adj_acc": 282.82037598447357
+  },
+  {
+    "defer_frac": 1.0,
+    "n_deferred": 200,
+    "overall_acc": 0.6349999904632568,
+    "eff_throughput": 337.34173428211386,
+    "adj_acc": 214.21199805200084
+  }
+]
