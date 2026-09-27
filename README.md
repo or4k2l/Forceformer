@@ -1,4 +1,4 @@
-# Forceformer — Throughput-Adjusted Accuracy
+# Forceformer - Throughput-Adjusted Accuracy
 
 **Which model has the highest accuracy?** is the wrong question for
 resource-constrained production systems. **Which model delivers the most
