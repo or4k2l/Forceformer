@@ -5,3 +5,4 @@ numpy
 matplotlib
 tqdm
 jupyter
+nltk>=3.8

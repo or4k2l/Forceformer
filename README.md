@@ -71,6 +71,13 @@ jupyter notebook enformer_x_force.ipynb
 A CUDA-capable GPU is recommended (the notebook was developed on a Tesla T4).
 It will also run on CPU, but the long-context stress test will be very slow.
 
+## Reproduction follow-up
+
+The separate [`experiments/forceformer-repro`](experiments/forceformer-repro/) folder contains a
+CPU-oriented reproduction on NLTK's small `movie_reviews` corpus, plus exploratory cascade and
+sparse-routing experiments. It documents the changed dataset/hardware and limitations; its results
+are not directly comparable to the IMDB/T4 notebook above.
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).

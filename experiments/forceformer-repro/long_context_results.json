@@ -1,0 +1,75 @@
+{
+  "glu": {
+    "8192": {
+      "status": "ok",
+      "time_s": 0.058789968490600586,
+      "batch": 2
+    },
+    "16384": {
+      "status": "ok",
+      "time_s": 0.11831951141357422,
+      "batch": 2
+    },
+    "32768": {
+      "status": "ok",
+      "time_s": 0.32679057121276855,
+      "batch": 2
+    },
+    "65536": {
+      "status": "ok",
+      "time_s": 0.8904211521148682,
+      "batch": 2
+    }
+  },
+  "linear_attn": {
+    "8192": {
+      "status": "ok",
+      "time_s": 0.08519220352172852,
+      "batch": 2
+    },
+    "16384": {
+      "status": "ok",
+      "time_s": 0.2215900421142578,
+      "batch": 2
+    },
+    "32768": {
+      "status": "ok",
+      "time_s": 0.4983091354370117,
+      "batch": 2
+    },
+    "65536": {
+      "status": "ok",
+      "time_s": 1.395294427871704,
+      "batch": 2
+    }
+  },
+  "softmax_attn": {
+    "8192": {
+      "status": "ok",
+      "time_s": 6.15687370300293,
+      "batch": 1
+    },
+    "16384": {
+      "status": "oom_predicted",
+      "note": "score matrix ~4.3GB, skipped to avoid killing the process"
+    }
+  },
+  "gated_fusion": {
+    "8192": {
+      "status": "ok",
+      "time_s": 0.3546762466430664
+    },
+    "16384": {
+      "status": "ok",
+      "time_s": 0.7951457500457764
+    },
+    "32768": {
+      "status": "ok",
+      "time_s": 1.8032352924346924
+    },
+    "65536": {
+      "status": "ok",
+      "time_s": 4.391087770462036
+    }
+  }
+}
