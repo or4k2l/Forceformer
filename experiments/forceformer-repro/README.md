@@ -48,6 +48,15 @@ python eval_sparse.py
 python cascade.py
 ```
 
+Run the lightweight CPU smoke tests from this directory with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+GitHub Actions runs these tests on pushes and pull requests. They exercise the data helpers and
+all four model variants on small synthetic inputs; they do not download the corpus or train models.
+
 `train.py` trains all four models by default and writes one checkpoint per model plus
 `train_results.json`. Select a subset, device, or training parameters with, for example:
 
